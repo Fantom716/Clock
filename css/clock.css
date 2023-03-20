@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .wrapper-time {
     display: flex;
     flex-direction: column;
@@ -12,7 +16,6 @@
 .seconds {
     display: inline;
     font-size: 7rem;
-    font-family: 'Roboto', sans-serif;
 }
 .hour,
 .min {
