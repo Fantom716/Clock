@@ -38,6 +38,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 15%;
 }
 .timer-time {
     border-radius: 10px;
