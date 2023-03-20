@@ -1,10 +1,12 @@
 hour = document.querySelector(".hour");
 min = document.querySelector(".min");
 sec = document.querySelector(".seconds");
+
 timerButton = document.querySelector('.start-timer');
 timerInput = document.querySelector(".timer-time");
+timerOk = document.querySelector('.timer-ok');
+
 timerInputValue = document.querySelector(".timer-time").value;
-timerOk = document.querySelector('.timer-ok')
 
 setInterval(() => {
     date = new Date();
